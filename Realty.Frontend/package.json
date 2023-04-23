@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "name": "realty.frontend",
+  "private": true,
+  "main": "index.js",
+
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no text specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+
+  "devDependencies": {
+    "aspnet-webpack": "^3.0.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-parameters": "^7.12.1",
+    "@babel/plugin-transform-spread": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "moment": "^2.29.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0"
+  }
+}
